@@ -1,5 +1,10 @@
 /* Body */
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 
 
 
@@ -32,20 +37,43 @@ background-color: white;
   justify-content: right;
 }
 .herosection {
-  background-color: rgb(255, 226, 182);
+  background-color: rgb(240, 213, 176);
+  /* height:fit-content; */
 }
+
+.herosection a {
+  background-color: rgb(97, 29, 29);
+  color:rgb(225, 223, 219);
+}
+ 
+.herobutton {
+text-align: center;
+}
+ 
 
 
 
 /* Work Section */
 .cardsback {
-  background-color: rgb(248, 201, 201);
+  background-color: rgb(202, 202, 202);
 }
 
 .cardheader {
   color:white;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-decoration: dotted;
+}
+
+.cardsback h2 {
+  color:rgb(97, 29, 29);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+}
+
+.card .btn {
+  background-color: rgb(97, 29, 29);
+  font-variant: small-caps;
+  color:rgb(225, 223, 219);
 }
 
 /* Skills Section */
