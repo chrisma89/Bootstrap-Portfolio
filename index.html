@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./css/style.css" />
 
   <title>Chrisma-Bootstrap-Portfolio</title>
 </head>
@@ -24,7 +24,7 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="#Projects">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Skills</a>
@@ -39,59 +39,74 @@
 
 
   <!--Hero Section-->
-
-  <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col">
+      <div class="p-5 mb-4 bg-body-tertiary rounded-3">
     <div class="container-fluid py-5">
       <h1 class="display-5 fw-bold">Chrisma Stephen</h1>
       <p class="col-md-8 fs-4">Welcome to Chrisma's Portfolio</p>
-      <img src="./images/profile.png" alt="Profile pic">
+      <img class="img-thumbnail float-end img-responsive" src="./images/profile.png" alt="Profile pic">
       <!-- <button class="btn btn-primary btn-lg" type="button">Example button</button> -->
     </div>
+    </div>
   </div>
+    
+  </div>
+</div>
+  
 
 
 
   <!--Work Section-->
-  
-  <div class="container">
-    <div class="row">
-      <div class="card" style="width: 18rem;">
-        <img src="./images/placeholder1.jpg" class="card-img-top" alt="Horiseon Code Refactor">
+  <div class="row p-5 text-center btn-center border border-4 cardsback">
+    <h2 id="Projects" class="text-center p-5 mb-4 cardheader">Projects</h2>
+    <div class="cardContainer col-lg-6 col-md-6 col-sm-12">
+    <div class="card mb-5">
+        <img src="./images/placeholder1.jpg" class="card-img-top img-responsive img-thumbnail" alt="Horiseon Code Refactor">
         <div class="card-body">
-          <h5 class="card-title">Horiseon Code Refactor</h5>
+          <h5 class="card-title text-center">Horiseon Code Refactor</h5>
           <p class="card-text">This deployed page hosts the code refactor challenge</p>
-          <a href="https://chrisma89.github.io/horiseon-code-refactor/" class="btn btn-primary">View Now</a>
+          <a href="https://chrisma89.github.io/horiseon-code-refactor/" class="btn btn-dark btn-lg">View Now</a>
         </div>
       </div>
+  </div>    
 
-      <div class="card" style="width: 18rem;">
-        <img src="./images/placeholder2.jpg" class="card-img-top" alt="Chrisma Stephen Portfolio">
-        <div class="card-body">
+  <div class="cardContainer col-lg-6 col-md-6 col-sm-12">
+     <div class="card mb-5">
+          <img src="./images/placeholder2.jpg" class="card-img-top img-responsive img-thumbnail" alt="Chrisma Stephen Portfolio">
+          <div class="card-body">
           <h5 class="card-title">Chrisma Stephen Portfolio</h5>
           <p class="card-text">This deployed page hosts my portfolio</p>
-          <a href="https://chrisma89.github.io/Chrisma_Stephen_Portfolio/" class="btn btn-primary">View Now</a>
-        </div>
-      </div>
+          <a href="https://chrisma89.github.io/Chrisma_Stephen_Portfolio/" class="btn btn-dark btn-lg">View Now</a>
+          </div>
+     </div>
+  </div>
 
-      <div class="card" style="width: 18rem;">
-        <img src="./images/placeholder3.jpg" class="card-img-top" alt="Prework Study Guide">
+  <div class="cardContainer col-lg-6 col-md-6 col-sm-12"> 
+        <div class="card mb-5">
+        <img src="./images/placeholder3.jpg" class="card-img-top img-responsive img-thumbnail" alt="Prework Study Guide">
         <div class="card-body">
           <h5 class="card-title">Prework Study Guide</h5>
           <p class="card-text">This deployed page hosts the prework study guide</p>
-          <a href="https://chrisma89.github.io/Prework-study-guide/" class="btn btn-primary">View Now</a>
+          <a href="https://chrisma89.github.io/Prework-study-guide/" class="btn btn-dark btn-lg">View Now</a>
         </div>
       </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="./images/placeholder6.jpg" class="card-img-top" alt="LinkedIn">
+    </div>
+     
+    <div class="cardContainer col-lg-6 col-md-6 col-sm-12"> 
+      <div class="card mb-5">
+        <img src="./images/placeholdermain1.jpg" class="card-img-top img-responsive img-thumbnail" alt="LinkedIn">
         <div class="card-body">
           <h5 class="card-title">LinkedIn</h5>
           <p class="card-text">Visit my LinkedIn Page by clicking the View Now Button</p>
-          <a href="https://www.linkedin.com/in/chrisma-caroline-stephen-46109b130/?originalSubdomain=uk" class="btn btn-primary">View Now</a>
+          <a href="https://www.linkedin.com/in/chrisma-caroline-stephen-46109b130/?originalSubdomain=uk" class="btn btn-dark btn-lg">View Now</a>
         </div>
       </div>
     </div>
   </div>
+  
+
 
 
   <!--Skills Section-->
@@ -125,8 +140,7 @@
     <div class="container-fluid py-5">
       <h1 class="display-5 fw-bold">About Me
       </h1>
-      <p class="col-md-8 fs-4">Hello, I'm Chrisma - an aspiring software developer. I love the predictability of coding, the behind the scenes creative thinking and planning, and the delivery of a user friendly webpage. So, after many years of shaping pretty composites onto teeth, I am embarking on a journey to shape a teeny tiny portion of the world wide web.</p>
-      <p>My contact details are below.I look forward to connecting with you soon.</p>
+      <p class="col-md-8 fs-4">Hello, I'm Chrisma - an aspiring software developer. I love the predictability of coding, the behind the scenes creative thinking and planning, and the delivery of a user friendly webpage. So, after many years of shaping pretty composites onto teeth, I am embarking on a journey to shape a teeny tiny portion of the world wide web.My contact details are below.I look forward to connecting with you soon.</p>
       
       <!-- <button class="btn btn-primary btn-lg" type="button">Example button</button> -->
     </div>
@@ -135,7 +149,7 @@
 
 
   <!--Footer Section-->
-  <div class="container">
+  <div class="container p-5">
     <div class="row">
       <div class="col-sm-12 col-md-6 col-lg-4"> 
         <a class="btn btn-primary" href="mailto:chrismacaroline@gmail.com" role="button">EMAIL</a>
