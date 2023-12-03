@@ -9,6 +9,18 @@
 
 
 /* Navigation */
+.navback {
+  background-color: black;
+}
+.navback a {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:x-large;
+}
+
+.navicon {
+background-color: white;
+}
 
 
 /* Hero Section */
