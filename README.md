@@ -3,17 +3,17 @@
 
 ## About the Project
 
-This porfolio page has been powered by Bootstrap v5.3 and deployed through Github pages
+This porfolio page has been powered by Bootstrap v5.3 and deployed through Github pages.
 
 A github repository with a unique name was created, cloned and the code was written from scratch with lots of valuable information sourced through the bootcamp student files and the websites, as mentioned in the credits.
 
 The index.html file was structured into different sections such the navigation, hero section, projects section, skills section and an about me/contact section to follow the guidelines set for this challenge.
 
-The Bootstrap was pulled in through linking the Bootstrap CSS to the head section of html and the javascript and font-awesome links were added to the body. The custom css placed in an external stylesheet placed within the same repository and was linked in after the Bootstrap CSS.
+The Bootstrap was pulled in through linking the Bootstrap CSS(CDN) to the head section of html and the javascript and font-awesome links were added to the body. The custom css was placed in an external stylesheet within the same repository and was linked in after the Bootstrap CSS in the head tag.
 
-the jumbotron component code was taken from the class files and the other section's components were taken from Bootstrap webpage.Creating this repository and the following deployment has been helpful to understand Bootsrap and CSS concepts, and also helped me to gain some confidence in using some effects (esp the hover effects!). This challenged was a great help in understanding Bootstrap and making use of it in constructing a webpage with ease.
+The jumbotron component code was taken from the class files and the other components were taken from Bootstrap webpage.Creating this repository and the following deployment has been helpful to understand Bootstrap and CSS concepts, and also helped me to gain some confidence in using some effects (esp the hover effects!). This challenge was a great help in understanding Bootstrap and making use of it in constructing a webpage with ease.
 
-I have been able to make use of the Bootstrap grid, cards and badges to manipulate the elements on the webpage.CSS selectors and variables are in use in the stylesheet.I was also able to clearly set out my working pattern from the outset for this challenge and found that this helped me streamline my creative thinking process. I tried a few color schemes for the background and i enjoyed deploying my portfolio through Bootstrap.
+I have been able to make use of the Bootstrap grid, cards and badges to manipulate the elements on the webpage.CSS selectors and variables are in use in the stylesheet.I was also able to clearly set out my working pattern from the outset for this challenge and found that this helped me streamline my creative thinking process. I tried a few color schemes for the background and i enjoyed deploying my portfolio built with Bootstrap.
 
 The git commands have been used for version control throughout the creation of this repository.
 
@@ -49,9 +49,9 @@ The code can be viewed at github:
 
 ### Usage
 
-The webpage could be used to know a little bit about me and the projects that i have completed. The github repository can be used to see the Bootstrap components in use to aid the rendering of the various elemenst of the Portfolio webpage. 
+The webpage could be used to know a little bit about me and the projects that i have completed. The github repository can be used to see the Bootstrap components in use to aid the rendering of the various elements of the Portfolio webpage. 
 
-The screenshot of the webpage is below : ![webpagescreenshot](/images/)
+The screenshot of the webpage is below : ![webpagescreenshot](/images/webpagescreenshot.png)
 
 ### Credits
 
