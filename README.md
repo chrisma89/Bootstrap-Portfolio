@@ -32,8 +32,11 @@ This repository has been built using
 ## Resources:
 
 -https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto
+-https://www.w3schools.com/howto/howto_css_force_scrollbars.asp
+-https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_shadow
 -https://excalidraw.com/
 -https://getbootstrap.com/docs/5.3/getting-started/introduction/
+-https://getbootstrap.com/docs/4.1/utilities/shadows/
 -https://www.canva.com/learn/website-color-schemes/
 -https://fontawesome.com/search
 -https://fontawesome.com/v4/examples/#:~:text=Larger%20Icons,-View%20LESS%20View&text=To%20increase%20icon%20sizes%20relative,%2C%20or%20fa%2D5x%20classes.&text=If%20your%20icons%20are%20getting,you%20have%20sufficient%20line%2Dheight.
