@@ -4,15 +4,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
-
-
-
-
-
-
-
-
 /* Navigation */
 .navback {
   background-color: rgb(97, 29, 29);
@@ -45,17 +36,14 @@ background-color: white;
   background-color: rgb(97, 29, 29);
   color:rgb(225, 223, 219);
 }
- 
+
 .herobutton {
 text-align: center;
 }
- 
-
-
 
 /* Work Section */
 .cardsback {
-  background-color: rgb(202, 202, 202);
+  background-color: rgb(198, 182, 182);
 }
 
 .cardheader {
@@ -77,6 +65,28 @@ text-align: center;
 }
 
 /* Skills Section */
+.skillsback{
+  background-color: rgb(198, 182, 182);
+}
+
+.skillsback h2 {
+  color:rgb(97, 29, 29);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+}
+
+.skillsback .badge {
+  padding: 20px;
+  background-color:rgb(97, 29, 29);
+  color: rgb(225, 223, 219);
+  font-size:large;
+  margin-bottom: 20px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 
 /* Contacts Section */
