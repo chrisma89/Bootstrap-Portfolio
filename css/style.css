@@ -1,10 +1,11 @@
 /* Body */
-
+body {
+  overflow-y: scroll;
+}
 html {
   scroll-behavior: smooth;
 }
 :root {
-
   --bur:rgb(49, 1, 1);
   --sil:rgb(214, 206, 206);
   --blue:rgb(38, 174, 174);
@@ -82,6 +83,17 @@ text-align: center;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-decoration: underline;
 }
+.cardsback h5 {
+  color: var(--bur);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight:bold;
+  font-size: large;
+  text-decoration:underline;
+}
+.cardsback p {
+  color:var(--bur);
+  font-size: large;
+}
 .card .btn {
   background-color: var(--bur);
   font-variant: small-caps;
@@ -91,6 +103,7 @@ text-align: center;
   box-shadow: 0 5px 5px var(--bur);
   color:var(--blue);
 }
+
 
 
 
@@ -127,6 +140,16 @@ text-align: center;
   align-items: center;
   background-color:  var(--sil);
 }
+.contactsection h2 {
+  color: var(--bur);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+}
+.contactsection p{
+  color:var(--bur);
+  font-size: large;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 
 
@@ -149,6 +172,8 @@ text-align: center;
 }
 .footersection h2 {
  color: var(--sil);
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: underline;
 }
 .footersection a:hover {
   color:rgb(38, 174, 174);
