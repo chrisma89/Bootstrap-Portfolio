@@ -3,6 +3,11 @@
 html {
   scroll-behavior: smooth;
 }
+:root {
+
+  --bur:rgb(49, 1, 1);
+  --sil:rgb(214, 206, 206);
+}
 
 
 
@@ -10,7 +15,7 @@ html {
 /* Navigation */
 
 .navback {
-  background-color: rgb(97, 29, 29);
+  background-color: var(--bur);
 }
 .navback a {
   color: white;
@@ -20,7 +25,12 @@ html {
 .navicon {
 background-color: white;
 }
-
+.navback i {
+  margin-right:10px;
+}
+.navback a:hover {
+  color:rgb(38, 174, 174);
+}
 
 
 
@@ -35,10 +45,10 @@ background-color: white;
   justify-content: right;
 }
 .herosection {
-  background-color: rgb(240, 213, 176);
+  background-color: var(--sil);
 }
 .herosection a {
-  background-color: rgb(97, 29, 29);
+  background-color: var(--bur);
   color:rgb(225, 223, 219);
 }
 .herobutton {
@@ -51,7 +61,7 @@ text-align: center;
 /* Work Section */
 
 .cardsback {
-  background-color: rgb(198, 182, 182);
+  background-color: var(--sil);
 }
 .cardheader {
   color:white;
@@ -59,14 +69,14 @@ text-align: center;
   text-decoration: dotted;
 }
 .cardsback h2 {
-  color:rgb(97, 29, 29);
+  color: var(--bur);
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-decoration: underline;
 }
 .card .btn {
-  background-color: rgb(97, 29, 29);
+  background-color: var(--bur);
   font-variant: small-caps;
-  color:rgb(225, 223, 219);
+  color: var(--sil);
 }
 
 
@@ -75,17 +85,17 @@ text-align: center;
 /* Skills Section */
 
 .skillsback{
-  background-color: rgb(198, 182, 182);
+  background-color: var(--sil);
 }
 .skillsback h2 {
-  color:rgb(97, 29, 29);
+  color: var(--bur);
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-decoration: underline;
 }
 .skillsback .badge {
   padding: 20px;
-  background-color:rgb(97, 29, 29);
-  color: rgb(225, 223, 219);
+  background-color: var(--bur);
+  color: var(--sil);
   font-size:large;
   margin-bottom: 20px;
   display:flex;
@@ -102,7 +112,7 @@ text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color:  rgb(240, 213, 176);
+  background-color:  var(--sil);
 }
 
 
@@ -113,17 +123,23 @@ text-align: center;
   display:flex;
   flex-direction:column;
   justify-content: center;
-  background-color:rgb(97, 29, 29); 
+  background-color: var(--bur); 
 }
 .footersection .btn {
-  background-color:  rgb(240, 213, 176);
-  color: rgb(97, 29, 29); 
+  background-color: var(--sil);
+  color: var(--bur); 
   padding: 5px;
   min-width: 100px;
   max-width: 100px;
-  margin-right: 70px;
+  margin-right: 85px;
   font-size: large;
 }
 .footersection h2 {
- color:rgb(240, 213, 176);
+ color: var(--sil);
+}
+.footersection a:hover {
+  color:rgb(38, 174, 174);
+}
+.footersection .btn:hover {
+  box-shadow: 0 5px 15px 0 rgb(222, 205, 205);
 }
