@@ -4,7 +4,11 @@ html {
   scroll-behavior: smooth;
 }
 
+
+
+
 /* Navigation */
+
 .navback {
   background-color: rgb(97, 29, 29);
 }
@@ -13,13 +17,16 @@ html {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size:x-large;
 }
-
 .navicon {
 background-color: white;
 }
 
 
+
+
+
 /* Hero Section */
+
 .profileimg {
   width: 250px;
   height:250px;
@@ -29,52 +36,52 @@ background-color: white;
 }
 .herosection {
   background-color: rgb(240, 213, 176);
-  /* height:fit-content; */
 }
-
 .herosection a {
   background-color: rgb(97, 29, 29);
   color:rgb(225, 223, 219);
 }
-
 .herobutton {
 text-align: center;
 }
 
+
+
+
 /* Work Section */
+
 .cardsback {
   background-color: rgb(198, 182, 182);
 }
-
 .cardheader {
   color:white;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-decoration: dotted;
 }
-
 .cardsback h2 {
   color:rgb(97, 29, 29);
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-decoration: underline;
 }
-
 .card .btn {
   background-color: rgb(97, 29, 29);
   font-variant: small-caps;
   color:rgb(225, 223, 219);
 }
 
+
+
+
 /* Skills Section */
+
 .skillsback{
   background-color: rgb(198, 182, 182);
 }
-
 .skillsback h2 {
   color:rgb(97, 29, 29);
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-decoration: underline;
 }
-
 .skillsback .badge {
   padding: 20px;
   background-color:rgb(97, 29, 29);
@@ -108,7 +115,6 @@ text-align: center;
   justify-content: center;
   background-color:rgb(97, 29, 29); 
 }
-
 .footersection .btn {
   background-color:  rgb(240, 213, 176);
   color: rgb(97, 29, 29); 
@@ -118,7 +124,6 @@ text-align: center;
   margin-right: 70px;
   font-size: large;
 }
-
 .footersection h2 {
  color:rgb(240, 213, 176);
 }
