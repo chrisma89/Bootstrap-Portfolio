@@ -23,6 +23,8 @@ This repository has been built using
 
 -HTML
 -CSS 
+-Bootstrap
+-Font-awesome
 -Git 
 -Github 
 -Excalidraw
@@ -30,27 +32,27 @@ This repository has been built using
 ## Resources:
 
 -https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto
--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity
--https://www.w3schools.com/howto/howto_css_image_text.asp
 -https://excalidraw.com/
--https://www.w3.org/WAI/perspective-videos/contrast/
--https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design
--https://github.com/othneildrew/Best-README-Template/blob/master/README.md
+-https://getbootstrap.com/docs/5.3/getting-started/introduction/
+-https://www.canva.com/learn/website-color-schemes/
+-https://fontawesome.com/search
+-https://fontawesome.com/v4/examples/#:~:text=Larger%20Icons,-View%20LESS%20View&text=To%20increase%20icon%20sizes%20relative,%2C%20or%20fa%2D5x%20classes.&text=If%20your%20icons%20are%20getting,you%20have%20sufficient%20line%2Dheight.
+-Jumbotron component from class files from Bootcamp
 
 ### Installation
 
-This webpage can be rendered by visiting the url : https://chrisma89.github.io/Chrisma_Stephen_Portfolio/
-The code can be viewed at github: https://github.com/chrisma89/Chrisma_Stephen_Portfolio.git
+This webpage can be rendered by visiting the url : 
+The code can be viewed at github: 
 
 ### Usage
 
-The webpage could be used to know a little bit about me and the projects that i have completed. The github repository can be used to see the codes written for the various elements of the webpage. 
+The webpage could be used to know a little bit about me and the projects that i have completed. The github repository can be used to see the Bootstrap components in use to aid the rendering of the various elemenst of the Portfolio webpage. 
 
-The screenshot of the webpage is below : ![webpagescreenshot](/images/webpagescreenshot2.png)
+The screenshot of the webpage is below : ![webpagescreenshot](/images/)
 
 ### Credits
 
-The starter code was provided by the bootcampspot through edx and skills for life. 
+The jumbotron component was extracted from the class files through the EDX and Skills for life Bootcamp
 The readme file was written with some inspiration from https://github.com/othneildrew/Best-README-Template/blob/master/README.md
 The webpage has also used some very cool photos as placeholders. Many thanks to authors for the photos. The links of the photos and the authors are as below
 1. Kelly Sikkema- unsplash image-https://unsplash.com/@kellysikkema
@@ -62,12 +64,3 @@ https://unsplash.com/@angelekamp
 ### Licence
 The standard MIT Licence is in use for this repository.
 
-
-
-
-
-
-
-https://www.canva.com/learn/website-color-schemes/
-https://fontawesome.com/search
-https://fontawesome.com/v4/examples/#:~:text=Larger%20Icons,-View%20LESS%20View&text=To%20increase%20icon%20sizes%20relative,%2C%20or%20fa%2D5x%20classes.&text=If%20your%20icons%20are%20getting,you%20have%20sufficient%20line%2Dheight.
