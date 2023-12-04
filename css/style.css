@@ -7,6 +7,7 @@ html {
 
   --bur:rgb(49, 1, 1);
   --sil:rgb(214, 206, 206);
+  --blue:rgb(38, 174, 174);
 }
 
 
@@ -29,7 +30,7 @@ background-color: white;
   margin-right:10px;
 }
 .navback a:hover {
-  color:rgb(38, 174, 174);
+  color: var(--blue);
 }
 
 
@@ -47,9 +48,17 @@ background-color: white;
 .herosection {
   background-color: var(--sil);
 }
+.herosection h1 {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: var(--bur);
+}
 .herosection a {
   background-color: var(--bur);
-  color:rgb(225, 223, 219);
+  color: var(--sil);
+  font-weight: bold;
+}
+.herosection .btn:hover {
+  color: var(--blue);
 }
 .herobutton {
 text-align: center;
@@ -77,6 +86,10 @@ text-align: center;
   background-color: var(--bur);
   font-variant: small-caps;
   color: var(--sil);
+}
+.card .btn:hover {
+  box-shadow: 0 5px 5px var(--bur);
+  color:var(--blue);
 }
 
 
