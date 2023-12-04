@@ -3,7 +3,7 @@
 
 ## About the Project
 
-This porfolio page has been powered by Bootstrap v5.3 and deployed through Github pages.
+This portfolio page has been powered by Bootstrap v5.3 and deployed through Github pages.
 
 A github repository with a unique name was created, cloned and the code was written from scratch with lots of valuable information sourced through the bootcamp student files and the websites, as mentioned in the credits.
 
