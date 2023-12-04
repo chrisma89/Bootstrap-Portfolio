@@ -90,6 +90,35 @@ text-align: center;
 
 
 /* Contacts Section */
+.contactsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:  rgb(240, 213, 176);
+}
+
 
 
 /* Footer SEction */
+.footersection {
+  height:200px;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  background-color:rgb(97, 29, 29); 
+}
+
+.footersection .btn {
+  background-color:  rgb(240, 213, 176);
+  color: rgb(97, 29, 29); 
+  padding: 5px;
+  min-width: 100px;
+  max-width: 100px;
+  margin-right: 70px;
+  font-size: large;
+}
+
+.footersection h2 {
+ color:rgb(240, 213, 176);
+}
