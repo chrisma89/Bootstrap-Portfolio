@@ -44,7 +44,7 @@ This repository has been built using
 
 ### Installation
 
-This webpage can be rendered by visiting the url : https://chrisma89.github.io/Chrisma-Bootstrap-Portfolio/
+This webpage can be rendered by visiting the url : https://chrisma89.github.io/Bootstrap-Portfolio/
 The code can be viewed at github: https://github.com/chrisma89/Chrisma-Bootstrap-Portfolio
 
 ### Usage
